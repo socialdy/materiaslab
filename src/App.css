@@ -5,22 +5,6 @@
   text-align: center;
 }
 
- h3 {
-  font-family: 'Rubik', sans-serif !important;
-}
-
-
-
-/* Bon Vivant für Überschriften */
-h1, h2,  h4, h5, h6 {
-  font-family: 'Bon Vivant', serif !important;
-}
-
-/* Karla für Paragraphen und Buttons */
-p, button {
-  font-family: 'Karla', sans-serif !important;
-}
-
 
 .logo {
   height: 6em;

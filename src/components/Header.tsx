@@ -8,15 +8,15 @@ export const Header = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <header className="fixed w-full top-0 z-50 bg-white backdrop-blur-sm border-b border-gray-100">
+    <header className="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100">
       <div className="container mx-auto px-6 md:px-12">
         <nav className="flex items-center justify-between h-20">
           {/* Logo Section */}
           <div className="flex items-center space-x-2">
   <a href="/" className="h-6 sm:h-8">
     <img
-      src="/images/mgs_logo.png"
-      alt="MGS Logo"
+      src="/images/materialslab_logo.svg"
+      alt="MateriaSlab Logo"
       className="h-full m-0 w-auto"
     />
   </a>
@@ -61,14 +61,14 @@ export const Header = () => {
           <div className="lg:hidden">
             <button
               onClick={toggleMobileMenu}
-              className="text[#2c2c2e] hover:[#2c2c2e] focus:outline-none"
+              className="text-black hover:text-black focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="#2c2c2e"
+                stroke="black"
               >
                 <path
                   strokeLinecap="round"

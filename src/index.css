@@ -5,39 +5,80 @@
 
   /** Für Bon Vivant Family **/
   @font-face {
-      font-family: "Bon Vivant Family";
-      src: url("public/fonts/BonVivantSerifBold.ttf");
-      font-weight: normal;
+      font-family: "VerlagC-Bold";
+      src: url("public/fonts/Verlag Condensed Bold.otf");
+      font-weight: bold;
   }
+  @font-face {
+    font-family: "VerlagC-Light";
+    src: url("public/fonts/Verlag Condensed Light.otf");
+    font-weight: lighter;
+}
+@font-face {
+  font-family: "VerlagC-Book";
+  src: url("public/fonts/Verlag Condensed Book.otf");
+}
 
-  /* Karla für Body */
-  body {
-      font-family: 'Karla', sans-serif;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'VerlagC-Bold', Calibri, Arial, sans-serif;
+  color: #222222;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
 
-  nav, .mobile{
-    font-family: 'Rubik', sans-serif;
-    font-size: 12px !important;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-transform: uppercase;
-    padding: 0 15px;
-  }
+h1 {
+  font-size: 30px;
+  letter-spacing: 1px;  /* Standard Abstand für große Überschrift */
+  line-height: 1.3;     /* Etwas größere Zeilenhöhe für bessere Lesbarkeit */
+}
 
-  /* Rubik für Navigation */
-  nav, h3 {
-      font-family: 'Rubik', sans-serif;
-  }
+h2 {
+  font-size: 24px;
+  letter-spacing: 0.8px;  /* Leicht reduzierter Abstand bei kleinerer Schriftgröße */
+  line-height: 1.25;      /* Etwas kleinere Zeilenhöhe, aber noch gut lesbar */
+}
 
-  /* Bon Vivant für Überschriften */
-  h1, h2, h4, h5, h6 {
-      font-family: 'Bon Vivant Family', serif !important;
-  }
+h3 {
+  font-size: 19px;
+  letter-spacing: 0.6px;  /* Weiterer leichter Rückgang des Abstands */
+  line-height: 1.2;       /* Standardhöhe für kleinere Überschriften */
+}
 
-  /* Weitere Stile für Buttons und Texte */
-  btn{
-      font-family: 'Karla', sans-serif;
-  }
+h4 {
+  font-size: 15px;
+  letter-spacing: 0.5px;  /* Weiterer Rückgang des Abstands */
+  line-height: 1.2;       /* Gleiche Zeilenhöhe wie bei h3 */
+}
+
+h5 {
+  font-size: 9px;
+  letter-spacing: 0.4px;  /* Leichter Abstand für kleinere Schrift */
+  line-height: 1.15;      /* Etwas kompaktere Zeilenhöhe für kleine Schrift */
+}
+
+h6 {
+  font-size: 6px;
+  letter-spacing: 0.3px;  /* Sehr kleiner Abstand für die kleinste Überschrift */
+  line-height: 1.1;       /* Sehr kompakte Zeilenhöhe für h6 */
+}
+
+
+nav, .mobile{
+  font-family: 'VerlagC-Bold';
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 800;
+  color: #222222;
+}
+
+
+/* Standard-Absatz */
+p,li {
+  font-family: 'VerlagC-Book', Calibri, Arial, sans-serif;
+  color: #555555;
+  line-height: 19px;
+}
 
 
 @layer base {

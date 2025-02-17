@@ -5,16 +5,16 @@ export const CompanyIntro = () => {
         <div className="flex flex-col items-center text-center">
 
           <img 
-            src="/images/mgs_logo.png" 
+            src="/images/materialslab_logo.svg" 
             alt="MGS Logo" 
-            className="h-24 w-auto"
+            className="h-10 w-auto"
           />
           
         </div>
 
         <div className="mt-6 text-center">
-          <p className="text-[#2c2c2e] text-lg leading-relaxed mb-6">
-          MGS-Armaturen aus Edelstahl vereinen den luxuriösen Charme Italiens mit der innovativen Präzision der Schweizer Technik. Mit schlanken Silhouetten und klaren Formen schaffen sie eine perfekte Balance zwischen Ästhetik und Funktionalität. Seit 1997 verarbeitet MGS Edelstahl von höchster Qualität zu eleganten und funktionalen Designs, die sich als Branchenmaßstab für stilvolle Effizienz etabliert haben. Ihre raffinierte Endbearbeitung verwandelt sie in moderne Kunstwerke und setzt neue Maßstäbe für Küchen- und Badarmaturen.
+          <p className=" text-lg p-2 leading-relaxed mb-6">
+            MATERIA ist eine Marke der ABK GROUP, die sich seit über 25 Jahren als führend in der Keramikbranche etabliert hat. Mit einer klaren Vision und einem kontinuierlichen Innovationsansatz setzt ABK GROUP Maßstäbe in der Produktion von hochwertigen Steinzeugplatten. Die Produktpalette von MATERIA umfasst großformatige Platten, die sich perfekt in moderne Architektur und Innenräume integrieren lassen. Mit einem Fokus auf Qualität und Detailgenauigkeit verbindet MATERIA die Erfahrung und Technologie von ABK GROUP, um ästhetische und funktionale Lösungen für verschiedene Anwendungsbereiche zu bieten – von Innenräumen bis hin zu Outdoor-Bereichen.
           </p>
         </div>
       </div>
