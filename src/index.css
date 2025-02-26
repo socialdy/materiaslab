@@ -6,17 +6,17 @@
   /** Für Bon Vivant Family **/
   @font-face {
       font-family: "VerlagC-Bold";
-      src: url("fonts/Verlag Condensed Bold.otf");
+      src: url("fonts/Verlag_Condensed_Bold.otf");
       font-weight: bold;
   }
   @font-face {
     font-family: "VerlagC-Light";
-    src: url("fonts/Verlag Condensed Light.otf");
+    src: url("fonts/Verlag_Condensed_Light.otf");
     font-weight: lighter;
 }
 @font-face {
   font-family: "VerlagC-Book";
-  src: url("fonts/Verlag Condensed Book.otf");
+  src: url("fonts/Verlag_Condensed_Book.otf");
 }
 
 h1, h2, h3, h4, h5, h6 {
